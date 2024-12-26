@@ -5,14 +5,14 @@ This is my collection of LaTeX notes for **Math 5707: Graph Theory** at the **Un
 ***
 
 ## Chapter Sections
-1.) Graphs and Subgraphs ***
-2.) Trees ***
-3.) Connectivity ***
-4.) Euler Tours and Hamilton Cycles ***
-5.) Matchings ***
-8.) Vertex Colourings ***
-9.) Planar Graphs ***
-11.) Networks ***
+1. Graphs and Subgraphs
+2. Trees
+3. Connectivity
+4. Euler Tours and Hamilton Cycles 
+5. Matchings 
+8. Vertex Colourings 
+9. Planar Graphs 
+11. Networks 
 
 ***
 

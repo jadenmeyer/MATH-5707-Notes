@@ -19,6 +19,9 @@ This is my collection of LaTeX notes for **Math 5707: Graph Theory** at the **Un
 ## Notes (outline for now)
 
 - **LaTeX source files** for the notes
+-   1. Chapter 1 Notes:
+        [Graphs and Subgraphs](Week%201/Week%201%20Textbook%20Notes/Chapter1.pdf) 
+      
 - PDFs of the compiled notes (once available)
 
 

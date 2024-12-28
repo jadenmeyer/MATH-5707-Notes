@@ -1,8 +1,8 @@
-PWD c:/LaTeX-code/Math5707/MATH-5707-Notes/Week 1/Week 1 Textbook Notes
+PWD c:/LaTeX-code/Math5707/MATH-5707-Notes/Chapter 1 Notes
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/LaTeX-code/Math5707/MATH-5707-Notes/Week 1/Week 1 Textbook Notes/Chapter1.tex
+INPUT c:/LaTeX-code/Math5707/MATH-5707-Notes/Chapter 1 Notes/Chapter1.tex
 OUTPUT Chapter1.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
@@ -195,10 +195,10 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/amscls/amsthm.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/amscls/amsthm.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/amscls/amsthm.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/amscls/amsthm.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
@@ -242,11 +242,15 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 OUTPUT Chapter1.pdf
 INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT Chapter1.aux
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb

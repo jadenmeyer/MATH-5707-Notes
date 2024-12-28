@@ -1,6 +1,9 @@
 \documentclass{article}
-\usepackage{tikz, pgfplots, amsmath, amsthm, amsfonts}
+\usepackage{tikz, pgfplots, amsmath, amsfonts, amsthm}
 \usepackage{subcaption}
+
+\newtheorem{theorem}{Theorem}
+
 \begin{document}
 
 \section{Chapter 1: Graphs and Subgraphs}
@@ -226,4 +229,25 @@ if $\left|X\right| = m$ and $\left|Y\right| = n$ we denote this as: $K_{m,n}$.
 Note to the reader: See where you can create a line between the Vertices. You'll see if you can split it into halves you might see your $X$ and $Y$ sets just from inspection.
 
 \subsection{The Incidence and Adjacency Matrices}
+\indent{} For any graph $G$, there is a corresponding \emph{incidence matrix} with dimensions $v \times \epsilon$. $v$ is the number of vertices and $\epsilon$ is the number of edges.
+Denote the matrix as such:
+\[M(G) = [m_{ij}]\]
+\indent{} The index is the number of times (an integer) that $v_i$ adn $\epsilon_j$ are incident to each other. There is another matrix called the \emph{adjacency matrix}. This is a $v \times v$.
+Denote this as:
+\[A(G) = [a_{ij}]\]
+\indent{} $a_{ij}$ is the number (an integer) of edges that connect the two vertices $v_i$ and $v_j$. Generally, the incidence matrix is how computers store graphs.
+
+\subsection{Subgraphs}
+\indent{}A graph $H$ is a subgraph $G$ ($H \subseteq G$) if $V(H) \subseteq V(G), E(H) \subseteq E(G)$, and $\Psi_H$ is the restriction of $\Psi_G$ to $E(H)$. 
+When $H \subseteq G$ and $H \neq G$, it is proper to write $H \subset G$ and call $H$ a \emph{proper subgraph} of $G$. When $H$ is a subgraph of $G$, we call $G$ a supergraph of $H$. When 
+we have $V(H) = V(G)$ we see that $H$ is a \emph{spanning subgraph} of $G$. If delete any loops, every pair of adjacent vertices,  and all but one link between them, we obtain a \emph{simple spanning subgraph} of $G$. 
+We call this the \emph{underlying simple graph} of $G$.
+
+\subsection{Vertex Degrees}
+\indent{} The \emph{degree} $d_G(v)$ of a vertex $v$ in $G$ is the number of edges of $G$ incident with $v$, loops counting as two edges. We denotes the minimum degree as $\delta(G)$ and $\Delta(G)$ as the maximum degree.
+
+\begin{theorem}
+    $\sum_{\substack{v \in V}} d(v) = 2 \epsilon$
+\end{theorem}
+
 \end{document}
